@@ -26,9 +26,12 @@ namespace Aurora.Service
         private static ClientWebSocket webSocket = null;
         internal static async Task DisconnectAsync()
         {
-            webSocket.CloseAsync(WebSocketCloseStatus.NormalClosure, "", CancellationToken.None);
+            if (webSocket.State == WebSocketState.Open)
+            {
+                webSocket.CloseAsync(WebSocketCloseStatus.NormalClosure, "", CancellationToken.None);
+            }
             Global.Configuration.SocketClosed = true;
-            ConfigManager.Save(Global.Configuration);
+            ConfigManager.Save(Global.Configuration); 
         }
         private static async Task connect(string clientID, bool listen)
         {
