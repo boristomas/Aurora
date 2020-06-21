@@ -122,9 +122,12 @@
     <Reference Include="IronPython.Wpf, Version=2.7.8.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
       <HintPath>..\packages\IronPython.2.7.8.1\lib\net45\IronPython.Wpf.dll</HintPath>
     </Reference>
+<<<<<<< Updated upstream
     <Reference Include="LibreHardwareMonitorLib">
       <HintPath>.\LibreHardwareMonitorLib.dll</HintPath>
     </Reference>
+=======
+>>>>>>> Stashed changes
     <Reference Include="Microsoft.CodeAnalysis, Version=2.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeAnalysis.Common.2.8.2\lib\netstandard1.3\Microsoft.CodeAnalysis.dll</HintPath>
     </Reference>
@@ -331,8 +334,13 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+<<<<<<< Updated upstream
     <Reference Include="Vulcan.NET, Version=1.1.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Vulcan.NET.1.1.3\lib\netstandard2.0\Vulcan.NET.dll</HintPath>
+=======
+    <Reference Include="Vulcan.NET, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Vulcan.NET.1.1.2\lib\netstandard2.0\Vulcan.NET.dll</HintPath>
+>>>>>>> Stashed changes
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="Wooting.NET, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -378,6 +386,7 @@
     <Compile Include="Controls\Control_FieldPresenter.xaml.cs">
       <DependentUpon>Control_FieldPresenter.xaml</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Include="Controls\GameStateParameterPicker.xaml.cs">
       <DependentUpon>GameStateParameterPicker.xaml</DependentUpon>
     </Compile>
@@ -418,10 +427,17 @@
     <Compile Include="Profiles\CSGO\Layers\CSGODeathLayerHandler.cs" />
     <Compile Include="Profiles\CSGO\Layers\CSGOWinningTeamLayerHandler.cs" />
     <Compile Include="EffectsEngine\SegmentedRadialBrushFactory.cs" />
+=======
+    <Compile Include="Devices\UnifiedHID\RoccatTyon.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Profiles\Discord\Control_Discord.xaml.cs">
       <DependentUpon>Control_Discord.xaml</DependentUpon>
     </Compile>
     <Compile Include="Profiles\Discord\GSI\GameState_Discord.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Profiles\Discord\GSI\Nodes\ProviderNode.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Profiles\Discord\GSI\Nodes\VoiceNode.cs" />
     <Compile Include="Profiles\Discord\GSI\Nodes\TextNode.cs" />
     <Compile Include="Profiles\Discord\GSI\Nodes\GuildNode.cs" />
@@ -429,6 +445,7 @@
     <Compile Include="Profiles\Discord\DiscordApplication.cs" />
     <Compile Include="Profiles\Discord\DiscordProfile.cs" />
     <Compile Include="Devices\Vulcan\Vulcan.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Profiles\LeagueOfLegends\GameEvent_LoL.cs" />
     <Compile Include="Profiles\LeagueOfLegends\GSI\GameData.cs" />
     <Compile Include="Profiles\LeagueOfLegends\GSI\GameState_LoL.cs" />
@@ -445,6 +462,8 @@
       <DependentUpon>Control_LoLBackgroundLayer.xaml</DependentUpon>
     </Compile>
     <Compile Include="Profiles\AutoJsonNode.cs" />
+=======
+>>>>>>> Stashed changes
     <Compile Include="Profiles\RocketLeague\GSI\Nodes\Team.cs" />
     <Compile Include="Profiles\RocketLeague\Layers\RocketLeagueGoalExplosionLayerHandler.cs" />
     <Compile Include="Profiles\Osu\GSI\Enums.cs" />
@@ -456,6 +475,10 @@
     <Compile Include="Profiles\Skype\State_SkypeOverlay.cs" />
     <Compile Include="Profiles\Terraria\GSI\GameState_Terraria.cs" />
     <Compile Include="Profiles\Terraria\GSI\Nodes\PlayerNode.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Profiles\Terraria\GSI\Nodes\ProviderNode.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Profiles\Terraria\GSI\Nodes\WorldNode.cs" />
     <Compile Include="Profiles\Terraria\TerrariaApplication.cs" />
     <Compile Include="Profiles\Terraria\TerrariaProfile.cs" />
@@ -585,6 +608,7 @@
     <Compile Include="Profiles\CloneHero\GameEvent_CloneHero.cs" />
     <Compile Include="Profiles\CloneHero\GSI\GameState_CloneHero.cs" />
     <Compile Include="Profiles\CloneHero\GSI\Nodes\Player.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Profiles\EliteDangerous\Presets.cs" />
     <Compile Include="Profiles\EliteDangerous\Control_EliteDangerous.xaml.cs">
       <DependentUpon>Control_EliteDangerous.xaml</DependentUpon>
@@ -606,6 +630,8 @@
     </Compile>
     <Compile Include="Profiles\EliteDangerous\Layers\EliteDangerousBackgroundLayerHandler.cs" />
     <Compile Include="Profiles\EliteDangerous\Layers\EliteDangerousKeyBindsLayerHandler.cs" />
+=======
+>>>>>>> Stashed changes
     <Compile Include="Profiles\Generic\RazerChromaProfile.cs" />
     <Compile Include="Profiles\MemoryReadingLightEvent.cs" />
     <Compile Include="Profiles\Resident Evil 2\Layers\Control_ResidentEvil2RankLayer.xaml.cs">
@@ -693,7 +719,11 @@
     <Compile Include="Profiles\Minecraft\GSI\GameState_Minecraft.cs" />
     <Compile Include="Profiles\Minecraft\GSI\Nodes\PlayerEffectsNode.cs" />
     <Compile Include="Profiles\Minecraft\GSI\Nodes\PlayerNode.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Profiles\Generic\ProviderNode.cs" />
+=======
+    <Compile Include="Profiles\Minecraft\GSI\Nodes\ProviderNode.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Profiles\Minecraft\GSI\Nodes\WorldNode.cs" />
     <Compile Include="Profiles\Minecraft\Layers\Control_MinecraftBackgroundLayer.xaml.cs">
       <DependentUpon>Control_MinecraftBackgroundLayer.xaml</DependentUpon>
@@ -757,6 +787,10 @@
     <Compile Include="Profiles\Subnautica\GSI\Nodes\GameStateNode.cs" />
     <Compile Include="Profiles\Subnautica\GSI\Nodes\NotificationNode.cs" />
     <Compile Include="Profiles\Subnautica\GSI\Nodes\PlayerNode.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Profiles\Subnautica\GSI\Nodes\ProviderNode.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Profiles\Subnautica\GSI\Nodes\WorldNode.cs" />
     <Compile Include="Profiles\Subnautica\SubnauticaApplication.cs" />
     <Compile Include="Profiles\Subnautica\SubnauticaProfile.cs" />
@@ -777,6 +811,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Include="Settings\Layers\Control_ParticleLayer.xaml.cs">
       <DependentUpon>Control_ParticleLayer.xaml</DependentUpon>
     </Compile>
@@ -787,6 +822,8 @@
       <DependentUpon>Control_RadialLayer.xaml</DependentUpon>
     </Compile>
     <Compile Include="Settings\Layers\RadialLayerHandler.cs" />
+=======
+>>>>>>> Stashed changes
     <Compile Include="Settings\Layers\RazerLayerHandler.cs" />
     <Compile Include="Settings\Layers\Control_RazerLayer.xaml.cs">
       <DependentUpon>Control_RazerLayer.xaml</DependentUpon>
@@ -795,7 +832,10 @@
     <Compile Include="Settings\Layers\Control_BinaryCounterLayer.xaml.cs">
       <DependentUpon>Control_BinaryCounterLayer.xaml</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Include="Settings\Overrides\Logic\Boolean\Boolean_Latch.cs" />
+=======
+>>>>>>> Stashed changes
     <Compile Include="Settings\Overrides\Logic\Boolean\Boolean_NumericChangeDetector.cs" />
     <Compile Include="Settings\Overrides\Logic\Boolean\Boolean_PeripheralInput.cs" />
     <Compile Include="Settings\Overrides\Logic\Boolean\Boolean_ProcessRunning.cs" />
@@ -806,6 +846,7 @@
     <Compile Include="Settings\Overrides\Logic\Control_BinaryOperationHolder.xaml.cs">
       <DependentUpon>Control_BinaryOperationHolder.xaml</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Include="Settings\Overrides\Logic\Control_EvaluatableToolbox.xaml.cs">
       <DependentUpon>Control_EvaluatableToolbox.xaml</DependentUpon>
     </Compile>
@@ -819,6 +860,14 @@
       <DependentUpon>Control_IfElse.xaml</DependentUpon>
     </Compile>
     <Compile Include="Settings\Overrides\Logic\Generic\Delay.cs" />
+=======
+    <Compile Include="Settings\Overrides\Logic\Control_TimeAndUnit.xaml.cs">
+      <DependentUpon>Control_TimeAndUnit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\Overrides\Logic\Generic\Control_IfElse.xaml.cs">
+      <DependentUpon>Control_IfElse.xaml</DependentUpon>
+    </Compile>
+>>>>>>> Stashed changes
     <Compile Include="Settings\Overrides\Logic\Generic\IfElseIf.cs" />
     <Compile Include="Settings\Overrides\Logic\Number\Control_NumericMap.xaml.cs">
       <DependentUpon>Control_NumericMap.xaml</DependentUpon>
@@ -840,7 +889,11 @@
     <Compile Include="Settings\Overrides\Logic\IOverrideLogic.cs" />
     <Compile Include="Settings\Overrides\Logic\Number\Number_Maths.cs" />
     <Compile Include="Settings\Overrides\Logic\OverrideDynamicValue.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Settings\Overrides\Logic\EvaluatableAttribute.cs" />
+=======
+    <Compile Include="Settings\Overrides\Logic\OverrideLogicAttribute.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Settings\Overrides\Logic\Boolean\Boolean_GameState.cs" />
     <Compile Include="Settings\Overrides\Logic\Boolean\Control_BooleanGSIBoolean.xaml.cs">
       <DependentUpon>Control_BooleanGSIBoolean.xaml</DependentUpon>
@@ -848,6 +901,12 @@
     <Compile Include="Settings\Overrides\Logic\Boolean\Control_BooleanGSINumeric.xaml.cs">
       <DependentUpon>Control_BooleanGSINumeric.xaml</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Settings\Overrides\Logic\Boolean\Control_BooleanNot.xaml.cs">
+      <DependentUpon>Control_BooleanNot.xaml</DependentUpon>
+    </Compile>
+>>>>>>> Stashed changes
     <Compile Include="Settings\Overrides\Logic\Control_EvaluatablePresenter.xaml.cs">
       <DependentUpon>Control_EvaluatablePresenter.xaml</DependentUpon>
     </Compile>
@@ -892,7 +951,10 @@
       <DependentUpon>Control_ROTTombRaider.xaml</DependentUpon>
     </Compile>
     <Compile Include="Profiles\ROT Tomb Raider\ROTTombRaiderApplication.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Settings\Window_BitmapView.cs" />
+=======
+>>>>>>> Stashed changes
     <Compile Include="Settings\Window_GSIHttpDebug.xaml.cs">
       <DependentUpon>Window_GSIHttpDebug.xaml</DependentUpon>
     </Compile>
@@ -902,6 +964,7 @@
     <Compile Include="Settings\Window_ProcessSelection.xaml.cs">
       <DependentUpon>Window_ProcessSelection.xaml</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Include="Utils\AttachedApplication.cs" />
     <Compile Include="Utils\CollectionUtils.cs" />
     <Compile Include="Utils\DragBehaviour.cs" />
@@ -909,13 +972,18 @@
     <Compile Include="Utils\ObservableConcurrentDictionary.cs" />
     <Compile Include="Utils\TextUtils.cs" />
     <Compile Include="Utils\WindowPlacement.cs" />
+=======
+>>>>>>> Stashed changes
     <Compile Include="Utils\Converters.cs" />
     <Compile Include="Utils\DesktopUtils.cs" />
     <Compile Include="Utils\DesktopDuplicator.cs" />
     <Compile Include="Utils\FileUtils.cs" />
     <Compile Include="Utils\FrameworkElementUtils.cs" />
     <Compile Include="Utils\InputEvents.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Utils\Instantiator.cs" />
+=======
+>>>>>>> Stashed changes
     <Compile Include="Utils\MathUtils.cs" />
     <Compile Include="Utils\MessagePumpThread.cs" />
     <Compile Include="Utils\InputInterceptor.cs" />
@@ -1039,7 +1107,11 @@
       <DependentUpon>Control_LoL.xaml</DependentUpon>
     </Compile>
     <Compile Include="Profiles\LeagueOfLegends\LoLApplication.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Profiles\LeagueOfLegends\LoLGSIProfile.cs" />
+=======
+    <Compile Include="Profiles\LeagueOfLegends\LoLProfile.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Profiles\Aurora Wrapper\GameEvent_Aurora_Wrapper.cs" />
     <Compile Include="Profiles\Magic_Duels_2012\Control_MagicDuels2012.xaml.cs">
       <DependentUpon>Control_MagicDuels2012.xaml</DependentUpon>
@@ -1051,6 +1123,7 @@
     <Compile Include="Profiles\Metro Last Light\MetroLLApplication.cs" />
     <Compile Include="Profiles\Metro Last Light\MetroLLProfile.cs" />
     <Resource Include="Profiles\Discord\GSI\AuroraGSI.plugin.js" />
+<<<<<<< Updated upstream
     <Content Include="kb_layouts\Extra Features\images\Roccat_Kone_Pure_logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -1084,6 +1157,11 @@
     <None Include="kb_layouts\masterkeys_mk730.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+=======
+    <Content Include="Profiles\Overlays\SkypeOverlay\Event_SkypeOverlay.cs" />
+    <Content Include="Profiles\Overlays\SkypeOverlay\SkypeOverlaySettings.cs" />
+    <Content Include="Profiles\Overlays\SkypeOverlay\State_SkypeOverlay.cs" />
+>>>>>>> Stashed changes
     <None Include="Profiles\Overlays\VolumeOverlay\Event_VolumeOverlay.cs" />
     <None Include="Profiles\Overlays\VolumeOverlay\VolumeOverlaySettings.cs" />
     <Compile Include="Profiles\Payday 2\Layers\Control_PD2StatesLayer.xaml.cs">
@@ -1177,7 +1255,10 @@
     <Compile Include="Devices\SteelSeries\USBHIDCodes.cs" />
     <Compile Include="Utils\JSONUtils.cs" />
     <Compile Include="Utils\MouseUtils.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Utils\HardwareMonitor.cs" />
+=======
+>>>>>>> Stashed changes
     <Compile Include="Utils\PointerUpdateUtils.cs" />
     <Compile Include="Utils\ProcessUtils.cs" />
     <Compile Include="Utils\ActiveProcessMonitor.cs" />
@@ -1215,9 +1296,12 @@
     <None Include="kb_layouts\corsair_strafe.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+<<<<<<< Updated upstream
     <None Include="kb_layouts\corsair_strafe_mk2.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+=======
+>>>>>>> Stashed changes
     <None Include="kb_layouts\Extra Features\asus_pugio_features.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -1287,12 +1371,15 @@
     <None Include="kb_layouts\Extra Features\corsair_strafe_right_features.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+<<<<<<< Updated upstream
     <None Include="kb_layouts\Extra Features\corsair_strafe_mk2_left_features.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="kb_layouts\Extra Features\corsair_strafe_mk2_right_features.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+=======
+>>>>>>> Stashed changes
     <None Include="kb_layouts\Extra Features\generic_peripheral.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -1765,12 +1852,18 @@
     <Resource Include="Resources\info.png" />
     <Resource Include="Resources\Skype_300x300.png" />
     <Resource Include="Resources\Slime_Rancher.png" />
+<<<<<<< Updated upstream
     <Resource Include="Resources\elite_dangerous_256x256.png" />
     <Content Include="RazerSdkWrapper.dll" />
     <Resource Include="Resources\betterdiscord.png" />
     <Resource Include="Resources\terraria_512x512.png" />
     <Resource Include="Resources\icons8-font-size-30.png" />
     <Resource Include="Resources\icons8-folder-30.png" />
+=======
+    <Content Include="RazerSdkWrapper.dll" />
+    <Resource Include="Resources\betterdiscord.png" />
+    <Resource Include="Resources\terraria_512x512.png" />
+>>>>>>> Stashed changes
     <Content Include="RGB.NET.Devices.Asus.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -1866,6 +1959,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< Updated upstream
     <Page Include="Controls\GameStateParameterPicker.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -1886,10 +1980,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+=======
+>>>>>>> Stashed changes
     <Page Include="Profiles\Discord\Control_Discord.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+<<<<<<< Updated upstream
     <Page Include="Profiles\LeagueOfLegends\Layers\Control_LoLBackgroundLayer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -1898,6 +1995,8 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+=======
+>>>>>>> Stashed changes
     <Page Include="Profiles\Skype\Control_Skype.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -2018,6 +2117,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+<<<<<<< Updated upstream
     <Page Include="Profiles\EliteDangerous\Control_EliteDangerous.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -2030,6 +2130,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+=======
+>>>>>>> Stashed changes
     <Page Include="Profiles\Resident Evil 2\Control_ResidentEvil2.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -2306,6 +2408,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< Updated upstream
     <Page Include="Settings\Layers\Control_ParticleLayer.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -2314,6 +2417,8 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+=======
+>>>>>>> Stashed changes
     <Page Include="Settings\Layers\Control_RazerLayer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -2334,11 +2439,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< Updated upstream
     <Page Include="Settings\Overrides\Logic\Control_EvaluatablePresenter.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Settings\Overrides\Logic\Control_EvaluatableToolbox.xaml">
+=======
+    <Page Include="Settings\Overrides\Logic\Boolean\Control_BooleanNot.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Settings\Overrides\Logic\Control_EvaluatablePresenter.xaml">
+>>>>>>> Stashed changes
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -2346,10 +2459,13 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< Updated upstream
     <Page Include="Settings\Overrides\Logic\Generic\Control_Delay.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+=======
+>>>>>>> Stashed changes
     <Page Include="Settings\Overrides\Logic\Generic\Control_IfElse.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -2612,7 +2728,10 @@
     <Folder Include="Profiles\Slime Rancher\Layers\" />
     <Folder Include="Profiles\Subnautica\Layers\" />
     <Folder Include="Properties\DataSources\" />
+<<<<<<< Updated upstream
     <Folder Include="Settings\Overrides\Logic\Special\" />
+=======
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\RemoveProfile_Icon.png" />
@@ -2645,9 +2764,12 @@
     <Content Include="kb_layouts\Extra Features\images\Corsair_strafe_logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+<<<<<<< Updated upstream
     <Content Include="kb_layouts\Extra Features\images\Corsair_strafe_mk2_logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+=======
+>>>>>>> Stashed changes
     <Content Include="kb_layouts\Extra Features\images\Logi_G810_logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
